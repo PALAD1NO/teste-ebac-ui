@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/PALAD1NO/teste-ebac-ui#readme",
   "dependencies": {
+    "@faker-js/faker": "^9.7.0",
     "cypress": "^13.6.0"
   }
 }
