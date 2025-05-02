@@ -21,7 +21,7 @@ describe('Funcionalidade: Cadastro', () => {
     it('Deve completar o cadastro com sucesso - Usando variáveis', () => {
         var nome = faker.person.firstName()
         var sobrenome = faker.person.lastName()
-        var email = faker.internet.email(nome,sobrenome)
+        var email = faker.internet.email(nome)
         var senha = faker.internet.password()
 
         cy.get('#reg_email').type(email)
